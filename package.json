@@ -40,6 +40,9 @@
     "nodemon": "^1.18.9",
     "sass-loader": "^7.1.0"
   },
+  "gitHooks": {
+    "pre-commit": "npm run lint"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
