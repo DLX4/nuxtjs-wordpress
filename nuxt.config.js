@@ -73,15 +73,15 @@ export default {
   // 将此处2个地址改为自己的地址
   proxy: {
     '/api': {
-      target: 'https://www.xuanmo.xin',
-      // target: 'http://localhost:8888',
+      // target: 'https://www.xuanmo.xin',
+      target: 'http://106.54.113.128/wordpress',
       pathRewrite: {
         '^/api': '/'
       }
     },
     '/wp-content': {
-      target: 'https://www.xuanmo.xin'
-      // target: 'http://localhost:8888'
+      // target: 'https://www.xuanmo.xin'
+      target: 'http://106.54.113.128/wordpress'
     }
   },
 
