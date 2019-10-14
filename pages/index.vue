@@ -150,7 +150,7 @@ export default {
   &.style-1 {
     display: flex;
     justify-content: space-between;
-    height: 320px;
+    height: 450px;
   }
 
   &.style-2 {
@@ -209,18 +209,18 @@ export default {
   }
 
   .big-banner {
-    width: 600px;
+    width: 675px;
 
     img {
-      height: 400px;
+      height: 450px;
     }
   }
 
   .small-banner {
-    width: 180px;
+    width: 215px;
 
     .list {
-      height: 120px;
+      height: 143px;
       margin-bottom: 10px;
 
       &:last-of-type {
