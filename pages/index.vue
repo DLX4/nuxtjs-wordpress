@@ -209,10 +209,10 @@ export default {
   }
 
   .big-banner {
-    width: 710px;
+    width: 600px;
 
     img {
-      height: 320px;
+      height: 400px;
     }
   }
 
@@ -220,7 +220,7 @@ export default {
     width: 180px;
 
     .list {
-      height: 100px;
+      height: 120px;
       margin-bottom: 10px;
 
       &:last-of-type {
