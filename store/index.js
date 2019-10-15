@@ -35,7 +35,7 @@ export const actions = {
     try {
       let { data: globalInfo } = await this.$axios.$get(`${process.env.baseUrl}/wp-json/xm-blog/v1/info`)
       let { data: menu } = await this.$axios.$get(`${process.env.baseUrl}/wp-json/xm-blog/v1/menu`)
-      let { data: links } = await this.$axios.$get(`${process.env.baseUrl}/wp-json/xm-blog/v1/get-links?type=home`)
+      let { data: links } = await this.$axios.$get(`${process.env.baseUrl}/wp-json/xm-blog/v1/get-links`)
       // 判断banner类型
       if (globalInfo.banner.style === '1') {
         globalInfo.banner.big = globalInfo.banner.list[0]
