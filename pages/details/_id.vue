@@ -317,6 +317,11 @@ export default {
     line-height: 2;
     word-break: break-all;
 
+    /deep/ p {
+      /*text-indent:2em;*/
+      margin-top: 2em;
+    }
+
     /deep/ a {
       color: $color-theme;
     }
